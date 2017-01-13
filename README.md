@@ -1,15 +1,15 @@
 # covert_channel
 
 ----------------------------------------
-Installation Notes
+## Installation Notes
 ----------------------------------------
 
 To install and run
-1. make
-2. ./covert -h
+- make all
+- ./covert -h
 
 ----------------------------------------
-Server Mode
+### Server Mode
 ----------------------------------------
 
 To run in server mode
@@ -18,7 +18,7 @@ To run in server mode
 
 
 ----------------------------------------
-Client Mode
+### Client Mode
 ----------------------------------------
 
 To run an client
