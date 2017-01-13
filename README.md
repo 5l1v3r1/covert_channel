@@ -4,7 +4,7 @@
 ## Installation Notes
 ----------------------------------------
 
-To install and run
+To install and run. You must be root to run this
 - make all
 - ./covert -h
 
