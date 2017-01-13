@@ -138,7 +138,7 @@ int parse_cli(int argc, char *argv[])
 	connection_info.destination_ip = "127.0.0.1";
 	connection_info.destination_port = 3141;
 	connection_info.th_win = 23456;
-	connection_info.file = "/Users/vishavpreetsingh/Desktop/hello.txt";
+	connection_info.file = "/Users/jim/Desktop/hello.txt";
 
 	while(TRUE)
 	{
@@ -597,15 +597,3 @@ unsigned short in_cksum_tcp(int src, int dst, unsigned short *addr, int len)
 
 	return (answer);
 }
-
-
-
-
-
-
-
-
-
-
-
-
