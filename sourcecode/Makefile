@@ -1,18 +1,12 @@
 CC=gcc
-CFLAGS=-c -Wall -pedantic
-LDFLAGS=
+CFLAGS=-Wall -pedantic -o
+	
+covert: covert.c
+	${CC} ${CFLAGS} covert covert.c
 
-all:	covert
-
-covert: covert.o
-		${CC} ${LDFLAGS} covert.o -o covert
-		rm *.o
-
-covert.o: covert.c
-		${CC} ${CFLAGS} covert.c
+all: covert
 
 clean:
 		rm -rf *.o covert
-
 run:
 	./covert
